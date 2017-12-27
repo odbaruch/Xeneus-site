@@ -33,7 +33,8 @@ hr.star-dark:after {
   padding: 0 0.25em;
   content: '\f005';
   font-family: FontAwesome;
-  font-size: 2em; }
+  font-size: 2em; 
+  display: none;}
 
 hr.star-light {
   border-color: #fff; }
