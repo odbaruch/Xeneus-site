@@ -47,15 +47,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c
+    background-color: #009688
 }
 
 hr.star-dark {
-    border-color: #2c3e50
+    border-color: #009688
 }
 
 hr.star-dark:after {
-    color: #2c3e50;
+    color: #607d8b;
     background-color: #fff
 }
 
@@ -122,7 +122,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #18bc9c
+    color: #64FFDA
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -131,7 +131,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-    color: #18bc9c
+    color: #64FFDA
 }
 
 #mainNav .navbar-toggler {
@@ -158,13 +158,13 @@ section h2 {
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: #fff;
-        background: #18bc9c
+        background: #009688
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #fff;
-        background: #18bc9c
+        background: #009688
     }
     #mainNav.navbar-shrink {
         padding-top: .5rem;
@@ -220,11 +220,11 @@ header.masthead h2 {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background-color: rgba(24, 188, 156, .9)
+    background-color: #009688;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-    opacity: 1
+    opacity: 1;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -254,7 +254,17 @@ header.masthead h2 {
 .portfolio-modal .portfolio-modal-dialog .close-button {
     position: absolute;
     top: 2rem;
-    right: 2rem
+    right: 2rem;
+    color: #009688;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button:active,
+.portfolio-modal .portfolio-modal-dialog .close-button:focus,
+.portfolio-modal .portfolio-modal-dialog .close-button:hover {
+    color: #00796B;
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button i {
@@ -267,7 +277,7 @@ header.masthead h2 {
 
 @media (min-width:768px) {
     .portfolio-modal .portfolio-modal-dialog {
-        min-height: 100vh;
+        min-height: 85vh;
         padding: 5rem;
         margin: 3rem calc(3rem - 8px)
     }
@@ -309,7 +319,7 @@ header.masthead h2 {
     transition: top .3s ease, opacity .3s ease;
     vertical-align: middle;
     vertical-align: baseline;
-    opacity: 0
+    opacity: 0;
 }
 
 .floating-label-form-group:not(:first-child) {
@@ -323,7 +333,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c
+    color: #009688
 }
 
 form .row:first-child .floating-label-form-group {
@@ -333,22 +343,23 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-color: #009688;
     color: #fff
 }
 
 .copyright {
-    background-color: #1a252f
+    background-color: #00695C
 }
 
 a {
-    color: #18bc9c
+    color: #64FFDA
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #128f76
+    color: #1DE9B6;
+    text-decoration: none;
 }
 
 .btn {
@@ -356,41 +367,41 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: #18bc9c!important
+    background-color: #009688!important
 }
 
 .bg-secondary {
-    background-color: #2c3e50!important
+    background-color: #00695C!important
 }
 
 .text-primary {
-    color: #18bc9c!important
+    color: #009688!important
 }
 
 .text-secondary {
-    color: #2c3e50!important
+    color: #009688!important
 }
 
 .btn-primary {
-    background-color: #18bc9c;
-    border-color: #18bc9c
+    background-color: #009688;
+    border-color: #009688
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #128f76;
-    border-color: #128f76
+    background-color: #00796B;
+    border-color: #00796B
 }
 
 .btn-secondary {
-    background-color: #2c3e50;
-    border-color: #2c3e50
+    background-color: #607d8b;
+    border-color: #607d8b
 }
 
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
-    background-color: #1a252f;
-    border-color: #1a252f
+    background-color: #455A64;
+    border-color: #455A64
 }
