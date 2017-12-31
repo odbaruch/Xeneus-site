@@ -47,11 +47,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #009688
+    background-color: #673AB7
 }
 
 hr.star-dark {
-    border-color: #009688
+    border-color: #673AB7
 }
 
 hr.star-dark:after {
@@ -158,13 +158,13 @@ section h2 {
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: #fff;
-        background: #009688
+        background: #64FFDA
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: #fff;
-        background: #009688
+        background: #64FFDA
     }
     #mainNav.navbar-shrink {
         padding-top: .5rem;
@@ -220,7 +220,7 @@ header.masthead h2 {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background-color: #009688;
+    background-color: #673AB7;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -255,7 +255,7 @@ header.masthead h2 {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    color: #009688;
+    color: #64FFDA;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -264,7 +264,7 @@ header.masthead h2 {
 .portfolio-modal .portfolio-modal-dialog .close-button:active,
 .portfolio-modal .portfolio-modal-dialog .close-button:focus,
 .portfolio-modal .portfolio-modal-dialog .close-button:hover {
-    color: #00796B;
+    color: #1DE9B6;
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button i {
@@ -333,7 +333,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #009688
+    color: #673AB7
 }
 
 form .row:first-child .floating-label-form-group {
@@ -343,12 +343,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #009688;
+    background-color: #673AB7;
     color: #fff
 }
 
 .copyright {
-    background-color: #00695C
+    background-color: #4527A0
 }
 
 a {
@@ -367,31 +367,31 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: #009688!important
+    background-color: #673AB7!important
 }
 
 .bg-secondary {
-    background-color: #00695C!important
+    background-color: #4527A0!important
 }
 
 .text-primary {
-    color: #009688!important
+    color: #673AB7!important
 }
 
 .text-secondary {
-    color: #009688!important
+    color: #673AB7!important
 }
 
 .btn-primary {
-    background-color: #009688;
-    border-color: #009688
+    background-color: #64FFDA;
+    border-color: #64FFDA
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #00796B;
-    border-color: #00796B
+    background-color: #1DE9B6;
+    border-color: #1DE9B6
 }
 
 .btn-secondary {
