@@ -8,6 +8,23 @@ body {
     font-family: Lato
 }
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, .38)!important;
+}
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, .38)!important;
+}
+  :-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, .38)!important;
+}
+  :-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, .38)!important;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
 h1,
 h2,
 h3,
@@ -219,7 +236,7 @@ header.masthead h2 {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background-color: #673AB7;
+    background-color: rgb(100, 255, 218, .9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -227,7 +244,7 @@ header.masthead h2 {
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .portfolio .portfolio-caption {
@@ -244,7 +261,6 @@ header.masthead h2 {
 }
 .portfolio .portfolio-caption p {
     font-size: 16px;
-    font-style: italic;
     margin: 0;
 }
 
@@ -333,9 +349,30 @@ header.masthead h2 {
     opacity: 0;
 }
 
+#process .portfolio-caption {
+    background: transparent;
+}
+
+#process .portfolio-caption h4 {
+    color: rgba(255, 255, 255, 1);
+}
+
+#process .portfolio-caption p {
+    color: rgba(255, 255, 255, .7);
+}
+
+.form-control:focus {
+    background: transparent;
+    color: #ffffff;
+}
+
+.form-control {
+    color: #ffffff;
+}
+
 .floating-label-form-group {
     position: relative;
-    border-bottom: 1px solid #e9ecef
+    border-bottom: 1px solid #ffffff;
 }
 
 .floating-label-form-group input,
@@ -379,8 +416,16 @@ header.masthead h2 {
     opacity: 1
 }
 
+.floating-label-form-group-with-value {
+    border-bottom: none;
+}
+
+.floating-label-form-group-with-focus {
+border-bottom: 1px solid #ffffff;
+}
+
 .floating-label-form-group-with-focus label {
-    color: #673AB7
+    color: #ffffff;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -390,7 +435,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #673AB7;
+    background-color: #4527A0;
     color: #fff
 }
 
