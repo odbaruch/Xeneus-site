@@ -212,7 +212,6 @@ header.masthead h2 {
     position: relative;
     display: block;
     max-width: 25rem;
-    margin-bottom: 15px
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -231,11 +230,29 @@ header.masthead h2 {
     font-size: 1.5rem
 }
 
+.portfolio .portfolio-caption {
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 15px
+}
+.portfolio .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+.portfolio .portfolio-caption p {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+
 @media (min-width:576px) {
     .portfolio {
         margin-bottom: -30px
     }
-    .portfolio .portfolio-item {
+    .portfolio .portfolio-caption {
         margin-bottom: 30px
     }
 }
@@ -284,6 +301,36 @@ header.masthead h2 {
     .portfolio-modal .portfolio-modal-dialog h2 {
         font-size: 3rem
     }
+}
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
 }
 
 .floating-label-form-group {
